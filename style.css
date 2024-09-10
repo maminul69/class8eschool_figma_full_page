@@ -1,0 +1,264 @@
+* {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+header {
+  background: #f0fff0;
+}
+
+header .navbar .nav-link {
+  color: #000000;
+}
+
+header .navbar .nav-item {
+  margin-left: 40px;
+}
+
+header .navbar .nav-item .signin {
+  background: #21b573;
+  padding: 10px 30px;
+  border-radius: 33px;
+  opacity: 0px;
+  color: white;
+}
+
+/* banner section */
+.banner-section {
+  background: #f0fff0;
+  width: 100%;
+  padding: 0px 0 70px;
+}
+
+.banner-section .banner-text h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #fb6735;
+}
+
+.banner-section .banner-text h1 {
+  width: 66%;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.banner-section .banner-text {
+  margin-top: 115px;
+}
+.banner-section .banner-text span {
+  color: #21b573;
+}
+
+.banner-section .banner-text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  width: 64%;
+  text-decoration: rgb(255, 255, 255);
+}
+
+/* button */
+.get-started-button {
+  margin-top: 30px;
+}
+.get-started-button .btn-info {
+  background: #21b573;
+  padding: 8px 20px;
+  border-radius: 100px;
+  opacity: 0px;
+  color: white;
+  border: 1px solid black;
+}
+
+.btn-info:hover {
+  background-color: #21b573 !important;
+  border-color: #21b573 !important;
+  box-shadow: none !important;
+  /* border: 1px solid black !important; */
+  color: white !important;
+  
+}
+
+/* feature section */
+
+.feature-section {
+  width: 100%;
+  padding: 20px 0px 50px;
+}
+
+.feature-section .feature-content {
+  text-align: center;
+  background: #f8fffb;
+  padding: 60px 0px 70px;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 270px;
+  width: 270px;
+  transition: 0.4s;
+}
+
+.feature-section .feature-content:hover {
+  box-shadow: 0px 20px 40px 0px #0000001a;
+  background: #ffffff;
+  transition: 0.4s;
+}
+
+.feature-section .feature-content h4 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+
+  color: #413960;
+}
+
+.feature-section .feature-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #585859;
+}
+
+.feature-section .row{
+  line-break: 50px;
+}
+
+/* card section */
+
+.online-courses {
+  width: 100%;
+  padding: 60px 0px;
+}
+
+.online-courses h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #413960;
+  margin-bottom: 50px;
+}
+
+.online-courses .c-card {
+  box-shadow: 0px 10px 40px 0px #0000001a;
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.online-courses .c-card .c-body {
+  margin: 20px 0px 35px;
+}
+
+.online-courses .c-card .c-body h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: #413960;
+
+}
+
+.online-courses .c-card .c-body p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #585859;
+
+}
+.online-courses span{
+  color:#585859
+}
+
+.get-started.c-btn .btn-info {
+  background: #21b573;
+  padding: 8px 30px;
+  gap: 10px;
+  border-radius: 33px;
+  opacity: 0px;
+  color: white;
+}
+
+.get-started .c-btn .btn-info:hover {
+  background-color: #21b573 !important;
+  border-color: #21b573 !important;
+  box-shadow: none !important;
+  border: 1px solid black !important;
+  color: white !important;
+}
+
+.online-courses .c-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* testimonial section */
+.testimonial-section {
+  width: 100%;
+  padding: 0px 0px 60px;
+}
+
+.testimonial-section .title .text-center {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  color: #000000;
+}
+
+.testimonial-section .testimonial-img{
+  text-align: right;
+}
+
+.testimonial-section p{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+width: 68%;
+}
+
+/* footer section */
+
+.footer-section{
+  width:100%;
+  padding:50px 0px 0px;
+  background-color: #282531;
+ opacity: 0px;
+ color: white;
+}
+
+.footer-section .col-lg-5 p{
+  width: 75%;
+ 
+}
+
+.footer-section .col ul{
+  list-style-type: none;
+  margin: 0px ;
+  padding: 0px ;
+}
+
+.footer-section h6{
+
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+}
+
+.footer-section ul li{
+  margin-bottom: 7px;
+}
+.footer-section .copyright{
+  margin-top: 80px;
+}
+.footer-section .copyright p{
+  text-align: center;
+  color :#CDCDCD;
+  
+
+}
